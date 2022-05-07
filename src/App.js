@@ -4,7 +4,7 @@ import Navbar from "./components.js/Navbar";
 import TextForm from "./components.js/TextForm";
 import React, { useState } from "react";
 import Alert from "./components.js/Alert";
-import Promotion from "./components.js/Promotion";
+
 // import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -51,7 +51,6 @@ function App() {
         mode={mode}
         showAlert={showAlert}
       />
-      <Promotion />
 
       {/* <About /> */}
       {/* <Routes>
