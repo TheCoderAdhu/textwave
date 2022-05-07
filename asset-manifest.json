@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/textwave/static/css/main.073c9b0a.css",
+    "main.js": "/textwave/static/js/main.cef9c7df.js",
+    "static/js/787.e658d043.chunk.js": "/textwave/static/js/787.e658d043.chunk.js",
+    "index.html": "/textwave/index.html",
+    "main.073c9b0a.css.map": "/textwave/static/css/main.073c9b0a.css.map",
+    "main.cef9c7df.js.map": "/textwave/static/js/main.cef9c7df.js.map",
+    "787.e658d043.chunk.js.map": "/textwave/static/js/787.e658d043.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.cef9c7df.js"
+  ]
+}
