@@ -1,11 +1,11 @@
 import "./App.css";
-import About from "./components.js/About";
+// import About from "./components.js/About";
 import Navbar from "./components.js/Navbar";
 import TextForm from "./components.js/TextForm";
 import React, { useState } from "react";
 import Alert from "./components.js/Alert";
-import { Routes, Route } from "react-router-dom";
-import Contact from "./components.js/Contact";
+import Promotion from "./components.js/Promotion";
+// import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -45,9 +45,16 @@ function App() {
         DarkToLightMode={DarkToLightMode}
       />
       <Alert alert={alert} />
+      <TextForm
+        Heading="Enter Text "
+        value=""
+        mode={mode}
+        showAlert={showAlert}
+      />
+      <Promotion />
 
       {/* <About /> */}
-      <Routes>
+      {/* <Routes>
         <Route
           exact
           path="/"
@@ -61,8 +68,7 @@ function App() {
           }
         />
         <Route exact path="/about" element={<About />} />
-        <Route exact path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
     </>
   );
 }
